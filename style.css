@@ -78,7 +78,7 @@ ul li a {
     margin: 0 auto;
 }
 
-.banenr_heading {
+.banner_heading {
     font-size: 4rem;
     color: #FFF;
     text-align: center;
@@ -208,5 +208,41 @@ form input {
     .dropdown-content a:hover {
         color: #FF5400;
     }
+
+    /* banner responsive */
+
+    .banner {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .banner_heading {
+        font-size: 1.6rem;
+    }
+
+    .banner_para {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .banner_form {
+        flex-direction: column;
+        width: 60%;
+        padding: 32px 24px;
+    }
+
+    form input, .search_btn {
+        width: 100%;
+    }
+
+    .select_type {
+        width: 88%;
+    }
+
+
+
+
+    
 
 }
