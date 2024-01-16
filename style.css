@@ -144,6 +144,79 @@ form input {
 
 }
 
+/* Main styles */
+main {
+    width: 1170px;
+    margin: 50px auto;
+}
+
+/* why choose us styles */
+.choose_us_title {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.choose_us_text {
+    width: 643px;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    margin: 24px auto 48px;
+}
+
+.yellow_card {
+    width: 570px;
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.yellow_card img {
+    margin: 32px auto auto 32px;
+}
+
+.card_head {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 32px auto auto 32px;
+}
+
+.card_para {
+    color: #5A5A5D;
+    margin: 16px auto auto 32px;
+    padding-bottom: 32px; 
+}
+
+.blue_card {
+    width: 570px;
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.blue_card img {
+    margin: 32px auto auto 32px;
+}
+
+.pink_card {
+    width: 570px;
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.pink_card img {
+    margin: 32px auto auto 32px;
+}
+
+.choose_us_card {
+    display: flex;
+    gap: 24px;
+}
+
+.pink_card_center {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
 
 
 /* ---------- mobile device responsive ---------- */
@@ -232,7 +305,8 @@ form input {
         padding: 32px 24px;
     }
 
-    form input, .search_btn {
+    form input,
+    .search_btn {
         width: 100%;
     }
 
@@ -241,8 +315,35 @@ form input {
     }
 
 
+/* ---------- Main responsive ---------- */
+main {
+    margin: 30px auto;
+    width: 94%;
+}
+
+/* ----- choose us responsive ----- */
+.choose_us_title {
+    font-size: 22px;
+}
+
+.choose_us_text {
+    width: 309px;
+}
+
+.yellow_card, .blue_card  {
+    width: 100%;
+}
+
+.choose_us_card {
+    flex-direction: column;
+}
 
 
-    
+
+
+
+
+
+
 
 }
