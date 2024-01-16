@@ -177,7 +177,7 @@ main {
 .first_line_img, .second_line_img, .third_line_img {
     display: flex;
     gap: 24px;
-    margin: 24px 0;
+    /* margin: 24px 0; */
 }
 
 
@@ -211,6 +211,7 @@ main {
     text-align: center;
     font-size: 2.4rem;
     font-weight: 800;
+    margin-top: 100px;
 }
 
 .choose_us_text {
@@ -558,7 +559,7 @@ main {
         color: white;
         font-size: 20px;
         font-weight: 700;
-        display: inline;
+        display: inline-block;
     }
     .sri, .america, .kashmir {
         position: relative;
@@ -567,7 +568,7 @@ main {
         color: white;
         font-size: 20px;
         font-weight: 700;
-        display: inline;
+        display: inline-block;
     }
     .bang, .bandar {
         position: relative;
@@ -576,7 +577,7 @@ main {
         color: white;
         font-size: 20px;
         font-weight: 700;
-        display: inline;
+        display: inline-block;
     }
 
     .destination p {
