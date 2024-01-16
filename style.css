@@ -150,6 +150,62 @@ main {
     margin: 100px auto;
 }
 
+
+/* ---------- Choose your destination ---------- */
+
+
+.destination>h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.destination>p {
+    color: #131318b3;
+    text-align: center;
+    width: 644px;
+    margin: 30px auto;
+}
+
+.dest_img_container {
+    margin-top: 50px;
+}
+
+.first_line_img, .second_line_img, .third_line_img {
+    display: flex;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+
+.maldive, .indo{
+    position: relative;
+    left: 40%;
+    bottom: 50%; 
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.sri, .america, .kashmir {
+    position: relative;
+    left: 35%;
+    bottom: 50%; 
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.bang, .bandar {
+    position: relative;
+    left: 40%;
+    bottom: 50%; 
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
 /* why choose us styles */
 .choose_us_title {
     text-align: center;
@@ -298,7 +354,7 @@ main {
     margin: 24px 0;
 }
 
-form>button {
+.form>button {
     border-radius: 8px;
     background: #FF5400;
     padding: 14px 150px;
@@ -308,7 +364,7 @@ form>button {
     border: none;
 }
 
-form>input {
+.form>input {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     width: 393px;
@@ -332,7 +388,7 @@ form>input {
     right: 10px;
     bottom: 80px;
     transform: rotate(-20deg);
-    
+
 }
 
 .link {
@@ -484,6 +540,49 @@ form>input {
         width: 94%;
     }
 
+    /* Choose your destination responsive */
+    .first_line_img, .second_line_img, .third_line_img {
+        flex-direction: column;
+    }
+
+    .maldive_img, .indo_img, .sri_img, .america_img, .kashmir_img, .bang_img, .bandar_img {
+        width: 100%;
+        height: 176px;
+        /* position: relative; */
+    }
+
+    .maldive, .indo {
+        position: relative;
+        left: 40%;
+        bottom: 100px; 
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline;
+    }
+    .sri, .america, .kashmir {
+        position: relative;
+        left: 40%;
+        bottom: 100px;  
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline;
+    }
+    .bang, .bandar {
+        position: relative;
+        left: 40%;
+        bottom: 100px; 
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline;
+    }
+
+    .destination p {
+        width: 309px;
+    }
+
     /* ----- choose us responsive ----- */
     .choose_us_title {
         font-size: 22px;
@@ -545,12 +644,12 @@ form>input {
         gap: 20px;
     }
 
-    .newsletter_img >img {
+    .newsletter_img>img {
         width: 100%;
         background-position: center;
     }
 
-    .newsletter_img > figcaption {
+    .newsletter_img>figcaption {
         width: 50%;
         font-size: 22px;
         bottom: 50px;
