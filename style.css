@@ -254,9 +254,9 @@ main {
 }
 
 .video_caption {
-    position: relative;
-    bottom: 250px;
-    left: 180px;
+    background: url(./assests/Images/video.png);
+    padding: 160px 167px;
+    border-radius: 16px;
     color: white;
     font-size: 24px;
     font-weight: 700;
@@ -364,7 +364,7 @@ main {
 
     /* ---------- Main responsive ---------- */
     main {
-        margin: 30px auto;
+        margin: 100px auto;
         width: 94%;
     }
 
@@ -385,6 +385,34 @@ main {
     .choose_us_card {
         flex-direction: column;
     }
+
+/* ----- video section responsive -----  */
+.video_section {
+    flex-direction: column;
+    width: 100%;
+}
+
+.video_caption {
+    font-size: 20px;
+    padding: 170px 95px;
+    
+}
+
+.video_title_container h1 {
+    font-size: 20px;
+    font-weight: 800;
+    width: 248px;
+}
+
+.video_title_container p {
+    font-size: 14px;
+    width: 360px;
+}
+
+.video_title_container ul li {
+    font-size: 14px;
+    font-weight: 700;
+}
 
 
 
