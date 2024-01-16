@@ -540,6 +540,25 @@ form>input {
     }
 
     /* ----- Newsletter responsive ----- */
+    .newsletter {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .newsletter_img >img {
+        width: 100%;
+        background-position: center;
+    }
+
+    .newsletter_img > figcaption {
+        width: 50%;
+        font-size: 22px;
+        bottom: 50px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
 
     /* --- footer responsive ---  */
     .footer {
