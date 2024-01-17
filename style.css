@@ -667,6 +667,10 @@ main {
         flex-direction: column;
     }
 
+    .card_para {
+        font-size: 14px;
+    }
+
     /* ----- video section responsive -----  */
     .video_section {
         flex-direction: column;
