@@ -150,6 +150,53 @@ main {
     margin: 100px auto;
 }
 
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    align-items: center;
+}
+
+/* Welcome section styles */
+.welcome_img {
+    border-radius: 8px;
+    height: 500px;
+}
+
+.welcome_text {
+    padding: 50px;
+}
+
+.welcome_text > h6 {
+    opacity: 0.6;
+    font-weight: 600;
+}
+.welcome_text > h3 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.welcome_text > p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.review_container {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.review_container > div > p {
+    opacity: 0.6;
+}
+
+.review_container > div > h3 {
+    font-size: 32px;
+}
+
 
 /* ---------- Choose your destination ---------- */
 
@@ -160,6 +207,7 @@ main {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 30px;
+    margin-top: 100px;
 
 }
 
@@ -538,6 +586,12 @@ main {
     /* ---------- Main responsive ---------- */
     main {
         margin: 100px auto;
+        width: 94%;
+    }
+
+    /* Welcome section responsive */
+    .welcome {
+        flex-direction: column;
         width: 94%;
     }
 
